@@ -24,7 +24,7 @@ page.open(address, function(){
     	try{
     		page.render(name+'.png');
     	}catch (error){
-    		console.log("ERROR CONTROLADO BITCH");
+    		console.log("Controlled error");
     	}
         
         phantom.exit();
